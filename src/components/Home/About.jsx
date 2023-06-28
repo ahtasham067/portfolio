@@ -4,9 +4,9 @@ import LaptopImg from "../../assets/home-main.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
+import { BsStackOverflow } from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa";
 
 
@@ -20,25 +20,25 @@ const About = () => {
                   LET ME <span className="yellow"> INTRODUCE </span> MYSELF
                 </h1>
                 <p className="home-about-body">
-                 Hi, my name is <span className="yellow">Md Abu Bakkar Siddiqe Sajib </span>
-                 and I'm from <span className="yellow"> Dhaka, Bangladesh.</span>
+                 Hi, my name is <span className="yellow">Ahtasham Naeem </span>
+                 and I'm from <span className="yellow"> Lahore, Pakistan.</span>
                 <br />
                 <br />
-                I recently graduated with a Bachelor's degree in Computer Science and Engineering in 2021.
+                I recently graduated with a Bachelor's degree in Computer Science and Engineering in 2020.
                 <br />
                 <br />
                   As a
-                  <b className="yellow"> Full-Stack </b>developer,  
+                  <b className="yellow"> Software Engineer </b>,
                   I enjoy tackling new challenges and continuously expanding my skillset.
                   <br />
                   <br />I am proficient in
-                    <b className="yellow"> Javascript, </b>
-                    as well as have knowledge in programming languages such as C, Java, Python,
-                  <b className="yellow"> GraphQL, and Solidity.</b>
+                    <b className="yellow"> Ruby on Rails, </b>
+                    as well as have great knowledge of <b className="yellow"> AWS </b> i am experienced
+                    in these service of AWS like EC2, S3, Elastic Cache, RDS, Elastic Beanstalk, Cloud Front, Auto Scaling group, Elastic load balancer etc.
+                  <b className="yellow"> PostgreSQL, SQLite and SQL.</b>
                   <br />
                   <br />
-                  I have a passion for working
-                  with <b className="yellow">Node.js, MongoDB,</b> and
+                  I have a passion for working with
                   <i>
                     <b className="yellow">
                       {" "}
@@ -47,15 +47,13 @@ const About = () => {
                   </i>
                   &nbsp; like
                   <i>
-                    <b className="yellow"> React.js</b>
+                    <b className="yellow"> React.js and Next.js</b>
                   </i>
                   <br />
                   <br />
                   I am also interested in building new
                   <i>
-                    <b className="yellow"> Web Technologies and Products, </b>
-                    as well as exploring areas related to
-                    <b className="yellow"> Artificial Intelligence.</b>
+                    <b className="yellow"> Web Technologies and Products. </b>
                   </i>
                   <br />
                   
@@ -76,7 +74,7 @@ const About = () => {
                 <ul className="home-about-social-links">
                   <li className="social-icons">
                     <a
-                      href="https://github.com/19sajib"
+                      href="https://github.com/ahtasham067"
                       target="_blank"
                       rel="noreferrer"
                       className="icon-colour  home-social-icons"
@@ -87,18 +85,18 @@ const About = () => {
                   </li>
                   <li className="social-icons">
                     <a
-                      href="https://twitter.com/19sajib"
+                      href="https://stackoverflow.com/users/9732392/ahtasham-naeem"
                       target="_blank"
                       rel="noreferrer"
                       className="icon-colour  home-social-icons"
-                      aria-label="twitter"
+                      aria-label="BsStackOverflow"
                     >
-                      <AiOutlineTwitter />
+                      <BsStackOverflow />
                     </a>
                   </li>
                   <li className="social-icons">
                     <a
-                      href="https://www.linkedin.com/in/19sajib/"
+                      href="https://www.linkedin.com/in/ahtasham-naeem/"
                       target="_blank"
                       rel="noreferrer"
                       className="icon-colour  home-social-icons"
@@ -109,7 +107,7 @@ const About = () => {
                   </li>
                   <li className="social-icons">
                     <a
-                      href="https://www.instagram.com/19sajib"
+                      href="https://www.instagram.com/"
                       target="_blank"
                       rel="noreferrer"
                       className="icon-colour home-social-icons"

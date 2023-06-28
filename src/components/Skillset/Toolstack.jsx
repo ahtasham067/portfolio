@@ -1,11 +1,11 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
+import { DiAws } from "react-icons/di";
 import {
   SiVisualstudiocode,
   SiPostman,
   SiHeroku,
-  SiVercel,
-  SiNetlify
+  SiSublimetext,
 } from "react-icons/si";
 
 const Toolstack = () => {
@@ -15,13 +15,13 @@ const Toolstack = () => {
         <SiVisualstudiocode />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiSublimetext />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiPostman />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNetlify />
+        <DiAws />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiHeroku />
