@@ -27,10 +27,10 @@ const Contact = () => {
       
     emailjs
       .sendForm(
-        "service_niilndo",
-        "template_6z5idye",
+        "service_f6rnzsw",
+        "template_v8wqfp5",
         form.current,
-        "VOBt6Akm1LhI5CZG-"
+        "O85GbHw4xRLjKE94U"
       )
       .then(
         (result) => {
@@ -59,7 +59,7 @@ const Contact = () => {
                 <textarea name="message" className="user" placeholder="Message" onChange={handleChange} />
                 <span className='not-done' >{notDone && "Please, fill all the input field"}</span>
                 <Button type="submit" className="button" disabled={done}>Send</Button>
-                <span className='done'>{done && "Thanks for contacting me and be sure i have recieved your mail. If you are testing this functionality then i am confirming this thing working perfectly fine. If you have any serious query then i will reply. Also if you need me, you can conatct me on Linkedin."}</span>
+                <span className='done'>{done && "Thanks for contacting me and be sure i have recieved your E-mail i will contact you soon."}</span>
                 </form>
             </Col>
             </Row>
