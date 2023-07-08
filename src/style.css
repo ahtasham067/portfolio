@@ -638,25 +638,9 @@ html {
     padding-bottom: 50px;
     justify-content: center;
   }
-  
-  .resume-left {
-    padding-right: 80px !important;
-  }
-  
-  .resume-right {
-    padding-left: 80px !important;
-  }
-  
-  @media (max-width: 767px) {
-    .resume-left {
-      padding-right: 15px !important;
-      padding-left: 15px !important;
-    }
-  
-    .resume-right {
-      padding-right: 15px !important;
-      padding-left: 15px !important;
-    }
+  .containerStyle{
+       height: 550px; 
+       overflow: auto;
   }
   .resume .resume-title {
     font-size: 2em;
